@@ -1,0 +1,989 @@
+
+
+.twss_6310_team_style_21{
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width:calc(100% - 10px);
+    position:relative;
+    border-top:5px white solid;
+    border-right:5px white solid;
+    border-left:5px white solid;
+    transition: all 0.3s ease 0s;
+}
+.twss_6310_team_style_21:hover{
+    border-top:5px brown solid;
+    border-right:5px brown solid;
+    border-left:5px brown solid;
+}
+.twss_6310_team_style_21_pic{
+    padding: 30px 20px 0;
+    position:relative;
+    border-top:2px bisque solid;
+    border-right:2px bisque solid;
+    border-left:2px bisque solid;
+
+}
+.twss_6310_team_style_21_pic img{
+    width: 100%;
+    height: auto;
+}
+
+.twss_6310_team_style_21_team_content{
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    position: relative;
+
+}
+.twss_6310_team_style_21:hover .twss_6310_team_style_21_team_content{
+    background: brown;
+}
+.twss_6310_team_style_21_team_content:before{
+    content: "+";
+    width: 20px;
+    height: 20px;
+    font-size: 17px;
+    color: #fff;
+    background: #333;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    transition: all 0.3s ease 0s;
+}
+.twss_6310_team_style_21:hover .twss_6310_team_style_21_team_content:before{
+    width: 100%;
+    background: brown;
+    color: brown;
+    text-align:left;
+
+}
+.twss_6310_team_style_21_title{
+    font-size: 18px;
+    margin: 0 0 8px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.twss_6310_team_style_21_designation{
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+ul.twss_6310_team_style_21_social{
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: -37px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+}
+.twss_6310_team_style_21:hover ul.twss_6310_team_style_21_social{
+    transform: scale(1);
+}
+ul.twss_6310_team_style_21_social li{
+    display:inline-block;
+}
+ul.twss_6310_team_style_21_social li a{
+    display:inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #a0a0a0;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out 0s;
+}
+ul.twss_6310_team_style_21_social li a:hover{
+    color: #fff;
+}
+ul.twss_6310_team_style_21_social li a:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transform: rotate(45deg);
+    z-index: -1;
+    transition: all 0.3s ease-in-out 0s;
+}
+ul.twss_6310_team_style_21_social li:hover a:before{
+    background: #333;
+    color: #fff;
+    transform: rotate(-45deg);
+}
+
+/*=========================style-22======================== */
+
+.twss_6310_team_style_22{
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    position:relative;
+}
+.twss_6310_team_style_22_pic{
+    overflow:hidden;
+    position:relative;
+    float: left;
+    width: 100%;
+    margin-bottom:15px;
+}
+.twss_6310_team_style_22_pic img{
+    vertical-align: middle;
+    height:auto;
+    width: 100%
+}
+ul.twss_6310_team_style_22_social{
+    width:100%;
+    position: absolute;
+    top:50%;
+    left: 0;
+    padding: 0;
+    opacity: 0;
+    transform: translateY(-50%) rotate(-45deg);
+    transition: all 0.3s ease 0s;
+    background: rgba(243, 144, 77,0.7);
+}
+.twss_6310_team_style_22:hover ul.twss_6310_team_style_22_social{
+    padding:100% 0;
+    opacity: 1;
+    transform: translateY(-50%) rotate(0deg);
+}
+ul.twss_6310_team_style_22_social lu{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    left: 0;
+}
+ul.twss_6310_team_style_22_social li{
+    display:inline-block;
+    margin-right: 8px;
+}
+ul.twss_6310_team_style_22_social li:last-child{
+    margin-right: 0px;
+}
+ul.twss_6310_team_style_22_social li a{
+    display:inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.twss_6310_team_style_22_team_content{
+    padding:15px;
+    background: #FFEBE9;
+}
+.twss_6310_team_style_22_title{
+    color: #3333ff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.twss_6310_team_style_22_designation{
+    color: #009900;
+    font-size:15px;
+    padding-top:5px;
+    margin-bottom: 10px;
+}
+.twss_6310_team_style_22:hover .twss_6310_team_style_22_title{
+    color:#cc0033;
+
+}
+.twss_6310_team_style_22_description{
+    color: #660066;
+    font-size: 14px;
+
+}
+
+/*=========================style-23======================== */
+
+.twss_6310_team_style_23{
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+    margin-bottom: 50px;
+}
+.twss_6310_team_style_23:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(60deg,#4da1a9,#99c24d);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    transform: scale(0);
+    transition: all 0.5s ease 0s;
+}
+.twss_6310_team_style_23:hover:after{
+    transform: scale(1);
+}
+.twss_6310_team_style_23 img{
+    height:auto;
+    width: 100%;
+    float: left;
+}
+.twss_6310_team_style_23_team_content{
+    width:100%;
+    background: #fff;
+    padding: 20px 0;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.twss_6310_team_style_23_title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.twss_6310_team_style_23_designation{
+    display: block;
+    font-size: 13px;
+    color: #999;
+    text-transform: capitalize;
+}
+ul.twss_6310_team_style_23_social{
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s ease 0s;
+}
+.twss_6310_team_style_23:hover ul.twss_6310_team_style_23_social{
+    opacity: 1;
+    transform: scale(1);
+}
+ul.twss_6310_team_style_23_social li{
+    display:inline-block;
+    margin-right: 8px !important;
+}
+ul.twss_6310_team_style_23_social li:last-child{
+    margin-right: 0px;
+}
+.twss_6310_team_style_23:hover ul.twss_6310_team_style_23_social li{
+    margin: 20px 0px 40px;
+}
+
+ul.twss_6310_team_style_23_social li a{
+    display:inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/*=========================style-24======================== */
+
+.twss_6310_team_style_24{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    float:left;
+    z-index: 1;
+}
+.twss_6310_team_style_24:before,
+.twss_6310_team_style_24:after{
+    content: "";
+    width: 130px;
+    height: 150px;
+    background: #00bed3;
+    position: absolute;
+    z-index: -1;
+}
+.twss_6310_team_style_24:before{
+    bottom: -20px;
+    left: 0;
+}
+.twss_6310_team_style_24:after{
+    top: -20px;
+    right: 0;
+}
+.twss_6310_team_style_24_pic{
+    margin: 20px;
+    float:left;
+    width:cale(100% - 40px);
+    position: relative;
+    border: 3px solid #00bed3;
+    transition: all 0.5s ease 0s;
+}
+.twss_6310_team_style_24:hover .twss_6310_team_style_24_pic{
+    border-color: #33343e;
+}
+.twss_6310_team_style_24_pic:after{
+    content: "";
+    width: 100%;
+    height: 0;
+    background: #33343e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform-origin: 0 0 0;
+    transition: all 0.5s ease 0s;
+}
+.twss_6310_team_style_24:hover .twss_6310_team_style_24_pic:after{
+    height: 100%;
+    opacity: 0.85;
+}
+.twss_6310_team_style_24 img{
+    width: 100%;
+    height: auto;
+    float:left;
+}
+.twss_6310_team_style_24_team_content{
+    width: 100%;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    transition: all 0.5s ease 0.2s;
+}
+.twss_6310_team_style_24:hover .twss_6310_team_style_24_team_content{
+    top: 38%;
+}
+.twss_6310_team_style_24_title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+.twss_6310_team_style_24_designation{
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+ul.twss_6310_team_style_24_social{
+    padding: 0;
+    list-style: none;
+}
+ul.twss_6310_team_style_24_social li{
+    display: inline-block;
+    margin-right: 8px;
+}
+ul.twss_6310_team_style_24_social li:last-child{
+    margin-right: 0px;
+}
+ul.twss_6310_team_style_24_social li a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+}
+
+/*=========================style-25======================== */
+
+.twss_6310_team_style_25{
+    background: #f5f5f5;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    position:relative;
+}
+.twss_6310_team_style_25_pic{
+    position: relative;
+    overflow: hidden;
+    float: left;
+     width: 100%;
+    transform: scale(1);
+    transition: all 0.3s ease 0s;
+    margin-bottom: 20px;
+}
+.twss_6310_team_style_25:hover .twss_6310_team_style_25_pic{
+    transform: scale(1.01);
+}
+.twss_6310_team_style_25_pic:after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 900px rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 1);
+    transform-origin: 50% 50% 0;
+    transition: all 0.35s ease 0s;
+}
+.twss_6310_team_style_25:hover .twss_6310_team_style_25_pic:after{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+.twss_6310_team_style_25_pic img{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.twss_6310_team_style_25_read{
+    width: 100px;
+    padding: 0 10px 23px 6px;
+    color: #fff;
+    text-align: right;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    z-index: 1;
+    margin: 0;
+    transform: translate3d(20px, 20px, 0px);
+    transition: all 0.35s ease 0s;
+}
+.twss_6310_team_style_25:hover .twss_6310_team_style_25_read{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+.twss_6310_team_style_25_team_content{
+    padding: 20px 0;
+}
+.twss_6310_team_style_25_title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #3b3b3b;
+    text-transform: capitalize;
+    margin: 0 0 8px 0;
+}
+.twss_6310_team_style_25_designation{
+    font-size: 13px;
+    font-weight: 500;
+    color: #6e6e70;
+    text-transform: capitalize;
+}
+ul.twss_6310_team_style_25_social{
+    padding: 0;
+    list-style: none;
+}
+ul.twss_6310_team_style_25_social li{
+    display: inline-block;
+    margin-right: 8px;
+}
+ul.twss_6310_team_style_25_social li:last-child{
+    margin-right: 0px;
+}
+ul.twss_6310_team_style_25_social li a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+}
+
+/*=========================style-26======================== */
+
+
+.twss_6310_team_style_26{
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+
+}
+.twss_6310_team_style_26 img{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.twss_6310_team_style_26_team_content{
+    width: 100%;
+    background: #3f2b4f;
+    color: #fff;
+    padding: 15px 0 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.twss_6310_team_style_26:hover .twss_6310_team_style_26_team_content{
+    padding-bottom: 40px;
+}
+.twss_6310_team_style_26_team_content:before,
+.twss_6310_team_style_26_team_content:after{
+    content: "";
+    width: 60%;
+    height: 38px;
+    background: #3f2b4f;
+    position: absolute;
+    top: -18px;
+    transform: rotate(15deg);
+    z-index: -1;
+}
+.twss_6310_team_style_26_team_content:before{
+    left: -3%;
+}
+.twss_6310_team_style_26_team_content:after{
+    right: -3%;
+    transform: rotate(-15deg);
+}
+.twss_6310_team_style_26_title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+    position: relative;
+    color: #fff;
+}
+.twss_6310_team_style_26_title:before,
+.twss_6310_team_style_26_title:after{
+    content: "";
+    width: 7px;
+    height: 93px;
+    background: #ff5543;
+    position: absolute;
+    top: -78px;
+    z-index: -2;
+    transform: rotate(-74deg);
+}
+.twss_6310_team_style_26_title:before{
+    left: 32%;
+}
+.twss_6310_team_style_26_title:after{
+    right: 32%;
+    transform: rotate(74deg);
+}
+.twss_6310_team_style_26_designation{
+    display: block;
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+ul.twss_6310_team_style_26_social{
+    list-style: none;
+    padding: 0 0 15px 0;
+    margin: 0;
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+.twss_6310_team_style_26:hover ul.twss_6310_team_style_26_social{
+    bottom: 0;
+}
+ul.twss_6310_team_style_26_social li{
+    display: inline-block;
+    margin-right:8px;
+}
+ul.twss_6310_team_style_26_social li:last-child {
+    margin-right: 0;
+}
+ul.twss_6310_team_style_26_social li a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+}
+
+/*=========================style-27======================== */
+
+.twss_6310_team_style_27{
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    width: 100%;
+    position:relative;
+}
+.twss_6310_team_style_27 img{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.twss_6310_team_style_27_social{
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding: 20px 0 0;
+    margin: 0;
+    background-color: rgba(203, 86, 93, 0.5);
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    transition: all 1s ease 0s;
+}
+.twss_6310_team_style_27:hover .twss_6310_team_style_27_social{
+    background-color: rgb(203, 86, 93);
+    opacity: 1;
+    bottom: 95px;
+}
+.twss_6310_team_style_27_social li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.twss_6310_team_style_27_social li:last-child{
+    margin-right:0;
+}
+.twss_6310_team_style_27_social li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+}
+
+.twss_6310_team_style_27_team_content{
+    width: 100%;
+    background: #cb565d;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.twss_6310_team_style_27_title{
+    font-size: 24px;
+    margin-top: 0;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.twss_6310_team_style_27_designation{
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+/*=========================style-28======================== */
+
+.twss_6310_team_style_28{
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+}
+.twss_6310_team_style_28 img{
+    width: 100%;
+    float: left;
+    height: auto;
+    transform: scale(1.2,1.2) translateX(-25px);
+    transition: all 0.20s linear 0s;
+}
+.twss_6310_team_style_28:hover img{
+    transform: scale(1.2,1.2) translateX(0);
+}
+.twss_6310_team_style_28_pic_border{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.twss_6310_team_style_28_team_content{
+    width:calc(90% - 50px);
+    position: absolute;
+    bottom: -40px;
+    padding: 0 25px;
+    transition: all 0.40s ease 0s;
+}
+.twss_6310_team_style_28:hover .twss_6310_team_style_28_team_content{
+    bottom: 5%;
+}
+.twss_6310_team_style_28_title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+.twss_6310_team_style_28_designation{
+    display: block;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.twss_6310_team_style_28_description{
+    font-size: 15px;
+    line-height:25px;
+    color: #fff;
+    transform: translateY(100%);
+    transition: all 0.30s ease 0.1s;
+}
+.twss_6310_team_style_28:hover .twss_6310_team_style_28_description{
+    transform: translateY(0);
+}
+ul.twss_6310_team_style_28_social{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    background: #30a5ab;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ul.twss_6310_team_style_28_social li{
+    display:block;
+    margin-top:10px;
+}
+ul.twss_6310_team_style_28_social li:last-child a{
+    margin-top:0;
+}
+ul.twss_6310_team_style_28_social li a{
+    display:block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+}
+
+/*=========================style-29======================== */
+
+.twss_6310_team_style_29{
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width:calc(100% - 10px);
+    border:5px #009999 solid;
+    position:relative;
+    overflow: hidden;
+    background: #009999;
+}
+.twss_6310_team_style_29_pic{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.twss_6310_team_style_29_pic:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0 0 #61b6ac inset;
+    opacity: 0.5;
+    transition: all 1s ease-in-out 0s;
+}
+.twss_6310_team_style_29:hover .twss_6310_team_style_29_pic:before {
+    box-shadow: 0 0 0 400px #61b6ac inset;
+}
+.twss_6310_team_style_29_pic img{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.twss_6310_team_style_29_social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.twss_6310_team_style_29_social li{
+    display: inline-block;
+    margin-right: 10px;
+    transform: scale(0,0);
+    transition: all 0.7s ease-in-out 0s;
+}
+.twss_6310_team_style_29:hover .twss_6310_team_style_29_social li:nth-child(1){
+    transition-delay: 0.1s;
+    transform: scale(1,1);
+}
+.twss_6310_team_style_29:hover .twss_6310_team_style_29_social li:nth-child(2){
+    transition-delay: 0.2s;
+    transform: scale(1,1);
+}
+.twss_6310_team_style_29:hover .twss_6310_team_style_29_social li:nth-child(3){
+    transform: scale(1,1);
+    transition-delay: 0.3s;
+}
+.twss_6310_team_style_29:hover .twss_6310_team_style_29_social li:nth-child(4){
+    transition-delay: 0.4s;
+    transform: scale(1,1);
+}
+.twss_6310_team_style_29:hover .twss_6310_team_style_29_social li:nth-child(5){
+    transition-delay: 0.5s;
+    transform: scale(1,1);
+}
+.twss_6310_team_style_29_social li:last-child{
+    margin-right:0;
+}
+.twss_6310_team_style_29_social li a{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+}
+
+.twss_6310_team_style_29_title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #283a44;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.twss_6310_team_style_29_designation{
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+/*=========================style-30======================== */
+
+.twss_6310_team_style_30{
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+    transform-style: preserve-3d;
+}
+
+.twss_6310_team_style_30_pic{
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.twss_6310_team_style_30:hover .twss_6310_team_style_30_pic{
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+
+}
+.twss_6310_team_style_30_pic img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.twss_6310_team_style_30_team_content{
+    padding: 20px;
+}
+.twss_6310_team_style_30_designation{
+    text-transform: uppercase;
+    font-size: 0.815em;
+}
+.twss_6310_team_style_30_description{
+    margin: 0 0 10px;
+    line-height: 30px;
+    padding: 0 15px;
+}
+.twss_6310_team_style_30_back{
+    margin:5px 0;
+    padding: 10px 0;
+}
+.twss_6310_team_style_30_social{
+    padding: 0;
+    margin-top: 30px;
+}
+.twss_6310_team_style_30_social li{
+    display: inline-block;
+    margin-right:5px
+}
+.twss_6310_team_style_30_social li:last-child{
+    margin-right:0px
+}
+.twss_6310_team_style_30_social li a{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    font-size: 16px;
+    transition: all 0.5s ease 0s;
+}
+.twss_6310_team_style_30_title{
+    margin: 0 0 3px;
+    padding: 0;
+    font-weight: 300;
+}
+.twss_6310_team_style_30 figcaption{
+    font-size: 0;
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+.twss_6310_team_style_30:hover figcaption{
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.twss_6310_team_style_30 figcaption:after{
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+}
+.twss_6310_team_style_30_caption{
+    display: inline-block;
+    width: calc(100% - 1px);
+    vertical-align: middle;
+    font-size: 14px
+}
+.twss_6310_team_style_30_pic,
+.twss_6310_team_style_30 figcaption{
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #ffcccc;
+    color: #000;
+    -webkit-transition: -webkit-transform 0.6s, z-index 0.7s;
+    -moz-transition: -moz-transform 0.6s, z-index 0.7s;
+    transition: transform 0.6s, z-index 0.7s;
+}
+

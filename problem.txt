@@ -1,0 +1,140 @@
+/**********************************************
+	url 
+**********************************************
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=9
+team 11
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=46
+team 15
+
+
+
+
+
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=45
+team 29
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=44
+team 28
+
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=43
+team 27
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=41
+
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=30
+
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=40
+
+
+
+
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=25
+ template 22
+
+
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=24
+
+ template 21
+
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=29
+ template 24
+
+
+http://localhost/stratagile/wordpress/wp-admin/admin.php?page=twss-template-01-10&styleid=30
+ template 25
+
+
+
+
+ <div class="twss-6310-category-filter-table" id="twss-6310-category-filter-<?php echo $styleId ?>">
+   <?php
+   echo twss_6310_load_category($styleId);
+   ?>
+   <div class="twss-6310-category-filter-row">
+     <?php
+       $col = 0;
+       if ($members) {
+         foreach ($members as $value) {
+           if ($value['profile_details_type'] == 1) {
+             $link_type = " class='twss_6310_team_style_25 twss_6310_team_member_info' link-id='{$value['id']}' link-url='{$value['profile_url']}' target='{$value['open_new_tab']}' team-id='0'";
+           } else if ($value['profile_details_type'] == 2) {
+             $link_type = " class='twss_6310_team_style_25  twss_6310_team_member_info' link-id='0' team-id='{$value['id']}'";
+           } else {
+             $link_type = " class='twss_6310_team_style_25 twss_6310_image_hover_effect' link-id='0' team-id='0'";
+           }
+           $col++;
+           
+           ?>
+           <div class="twss-6310-col-<?php echo $cssData['item_per_row'] . " twss-6310-category-filter-items " . $value['category'] ?>">
+             <div<?php echo $link_type ?>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+   <?php
+      }
+      if (($cssData['item_per_row'] > 1) && $col % $cssData['item_per_row'] != 0) {
+      }
+    }
+    ?>
+
+
+
+
+
+
+
+
+
+team 1 
+
+
+
+#twss-6310-slider-1 .twss-6310-owl-nav div.twss-6310-owl-prev {
+    left: 0;
+    border-radius: 0 10% 10% 0;
+}
+
+
+#twss-6310-slider-31 .twss-6310-owl-nav div.twss-6310-owl-prev {
+    left: 0;
+    border-radius: 0 0% 0% 0;
+    }
+
+#twss-6310-slider-1 .twss-6310-owl-nav div {
+    position: absolute;
+    top: calc(50% - 35px);
+    background: rgba(224, 36, 36, 0.8);
+    color: rgba(189, 189, 189, 1);
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+    font-size: 25px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 0;
+
+    }
